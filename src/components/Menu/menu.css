@@ -1,0 +1,101 @@
+/* Modal */
+#finish-btn {
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+    background-color: #FF9926;
+    border: 1px solid #FF9926;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+}
+
+#finish-btn:hover {
+    background-color: transparent;
+    color: #FF9926;
+    transform: scale(1.1);
+}
+
+#finish-btn:focus {
+    background-color: #e27f0e;
+    border: 2px solid #ce730b;
+    outline: none !important;
+}
+
+#finish-btn:active,
+#finish-btn.active {
+    border: none;
+    outline: none !important;
+}
+
+.modal-btn {
+    background-color: #FF9926;
+    border: 1px solid #FF9926;
+}
+
+.modal-btn:hover {
+    background-color: transparent;
+    color: #FF9926;
+    border: 1px solid #FF9926;
+}
+
+.modal-btn:focus {
+    background-color: #FF9926;
+    color: white;
+    border: 1px solid #FF9926;
+    outline: none !important;
+}
+
+.modal-btn:active,
+.modal-btn.active {
+    background-color: #FF9926 !important;
+    color: white;
+    border: 1px solid #FF9926;
+    outline: none !important;
+}
+
+/* /Modal */
+
+
+/* Menu Page
+Top of the page */
+
+#menu-page-img {
+    width: 100vw;
+    height: 400px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../Images/customer-images/pizza.jpg);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center center;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu-page {
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    letter-spacing: 6px;
+    font-weight: 500;
+    font-size: 4.5em;
+    position: absolute;
+    left: 50%;
+    top: 40vh;
+    transform: translate(-50%, -50%);
+}
+
+.menu-part-header {
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-top: 15vh;
+}
+
+.card-row {
+    width: 80vw;
+    margin: 5vh 10vw; 
+}
+
+#last-row {
+    margin-bottom: 25vh;
+}

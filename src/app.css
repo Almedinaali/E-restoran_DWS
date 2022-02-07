@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* nav */
+
+.nvb {
+  background-color:rgba(0, 0, 0, 0.6);
+  transition: 500ms ease;
+}
+
+.nvb .nvbcollapse>.navnav>.navlink {
+  color: white;
+}
+
+.nvb .nvbcollapse>.navnav>.navlink:hover {
+  color: #FF9926;
+  transition-duration: 0.4s;
+}
+
+.nvb .nvbcollapse>.navnav>.navlink.active {
+  color: #FF9926;
+}
+
+.lang-btn {
+  background: none;
+  color: #fff;
+  border: none;
+}
+
+#basic-nav-dropdown {
+  color: white;
+}
+
+#basic-nav-dropdown:hover {
+  color: #FF9926;
+  transition-duration: 0.4s;
+}
+
+/* navbar tokom skrolanja */
+
+.nvb.scrolled {
+  background-color: #FF9926 !important;
+}
+
+/* /nav */
+
+#switch {
+  min-height: fit-content;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: fit-content;
+  background-color: #EFEFEF;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+  text-align: left;
+  padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-part {
+  width: 27%;
+  margin-left: 6%;
+  display: inline-block;
+	vertical-align: top;
+}
+
+.footer-heading {
+  font-weight: 800;
+  letter-spacing: 1.6px;
+  border-bottom: 1px solid #FF9926;
+  text-transform: uppercase;
+}
+
+.sub-footer{
+  margin-top: 5vh;
+}
+
+#footer-address, #footer-phone, #footer-mail {
+  display: flex;
+}
+
+.footer-text {
+  color: #333333;
+  font-size: 1em;
+  letter-spacing: 1.3px;
+}
+
+#footer-contact .footer-text {
+  margin-left: 1em;
+}
+
+#footer-links .footer-text:hover {
+  color: #FF9926;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#footer-links .link:hover {
+  text-decoration: none;
+}
+
+#footer-home-icon, #footer-phone-icon, #footer-mail-icon {
+  font-size: 1.1em;
+  color: #282c34;
+}
+
+.socials-icon {
+  font-size: 2em;
+  margin-right: .5em;
+  color: #282c34;
+}
+
+.socials-icon:hover {
+  color: #FF9926;
+  transition-duration: 0.4s;
+}
+
+.hours {
+  white-space: pre;
+}
+
+@media (max-width: 880px) {
+ 
+	.footer-part, #footer-address, #footer-phone, #footer-mail {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+  }
+
+}
+
+#bottom {
+  background-color: #FF9926;
+  min-width: 100%;
+  margin-top: 15vh;
+  color: white;
+}
+
+#copyright {
+  margin-left: 20px;
+}
+/* /Footer */

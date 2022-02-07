@@ -1,0 +1,48 @@
+
+#about-page-img {
+    width: 100vw;
+    height: 400px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../Images/contact/res1.jpg);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center center;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about-page {
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    letter-spacing: 6px;
+    font-weight: 500;
+    font-size: 4.5em;
+    position: absolute;
+    left: 50%;
+    top: 40vh;
+    transform: translate(-50%, -50%);
+}
+
+#about-subh {
+    margin-top: 5vh;
+}
+
+#about2 {
+    display: flex;
+    margin: 20vh 10vw 0;
+}
+
+#about-gallery {
+    display: flex;
+    margin-top: 30vh;
+    margin-bottom: -12vh;
+}
+
+.image-div {
+    width: 15%;
+}
+
+.image {
+    width: 100%;
+}
